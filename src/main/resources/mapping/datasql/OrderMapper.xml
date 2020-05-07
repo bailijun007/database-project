@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.yin.databaseproject.dao.datasql.OrderMapper">
+
+
+    <select id="getOrder" resultType="com.yin.databaseproject.vo.OrderVO">
+        SELECT
+           *
+        FROM
+            tb_order
+    </select>
+</mapper>
